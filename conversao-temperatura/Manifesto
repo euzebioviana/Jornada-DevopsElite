@@ -1,0 +1,7 @@
+Projeto Conversão de Temperatura rodando com k8s.
+
+#Subir o cluster:
+k3d cluster create meuclusterConvert -p "8080:30003@loadbalancer"
+
+#Após isso ir até a pasta k8s e subir a aplicação:
+kubectl apply -f .\deployment.yaml
