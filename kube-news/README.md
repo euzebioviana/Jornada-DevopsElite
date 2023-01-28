@@ -1,3 +1,8 @@
+Projeto kube-news
+Objetivo
+O projeto Kube-news é uma aplicação escrita em NodeJS e tem como objetivo ser uma aplicação de exemplo pra trabalhar com o uso de containers.
+
+
 Aplicação de posts KubeDevNews rodando em k8s
 
 #Subir o cluster:
