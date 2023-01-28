@@ -1,15 +1,10 @@
-# Projeto kube-news
+Aplicação de posts KubeDevNews rodando em k8s
 
-### Objetivo
-O projeto Kube-news é uma aplicação escrita em NodeJS e tem como objetivo ser uma aplicação de exemplo pra trabalhar com o uso de containers.
+#Subir o cluster:
+k3d cluster delete meucluster -p "80:30000@loadbalancer"
 
-### Configuração
-Pra configurar a aplicação, é preciso ter um banco de dados Postgre e pra definir o acesso ao banco, configure as variáveis de ambiente abaixo:
+#Após isso, ir na pasta srv e subir a aplicação:
+kubectl apply -f .\deployment.yaml
 
-DB_DATABASE => Nome do banco de dados que vai ser usado.
-
-DB_USERNAME => Usuário do banco de dados.
-
-DB_PASSWORD => Senha do usuário do banco de dados.
-
-DB_HOST => Endereço do banco de dados.
+#Aplicação rodando:
+![image](https://user-images.githubusercontent.com/6171256/215295107-75a364b0-8365-4f51-b508-b2c61cfe09c6.png)
