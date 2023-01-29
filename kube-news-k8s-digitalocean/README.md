@@ -1,10 +1,5 @@
 - Necessário ter o terraform na máquina;
-- Criar o arquivo terraform.tfvars e colocar os valores:
-
-do_token      = SEU TOKEN DA DIGITALOCEAN
-ssh_keys_name = SEU SSH DA DIGITALOCEAN
-region        = REGIÃO PRETENDIDA PARA SUBIR AS MÁQUINAS
-
+- Edite o arquivo /terraform/terraform.tfvars com seus dados;
 - Criar todo cluster utilizando o comando: terraform init e terraform apply;
 - Após subir todas as máquinas;
 - Realizar a cópia do arquivo kube_config.yaml :
