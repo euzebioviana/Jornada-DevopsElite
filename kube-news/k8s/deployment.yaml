@@ -79,4 +79,4 @@ spec:
       targetPort: 8080
 #  type: LoadBalancer
 #Alterando o type de LoadBalancer para ClusterIP
-type: ClusterIP
+  type: ClusterIP
