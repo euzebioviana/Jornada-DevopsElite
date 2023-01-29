@@ -5,6 +5,10 @@ Objetivo
 O projeto Kube-news é uma aplicação escrita em NodeJS e tem como objetivo ser uma aplicação de exemplo pra trabalhar com o uso de CI/CD - Jenkins
 
 
+#Caminho no projeto do arquivo Jenkins
+
+- Todos arquivos referentes ao Jenkins ficam no diretório: kube-news-jenkins\src\jenkins
+
 #Jenkins
 
 ![image](https://user-images.githubusercontent.com/6171256/215358457-d0c26676-6497-4a9a-8c2f-cebccf909583.png)
