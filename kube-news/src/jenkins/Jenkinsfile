@@ -7,7 +7,7 @@ Jenkinsfile
             stage('Build Docker Image'){
                 steps{
                     script{
-                        dockerapp = docker.build("santoseuzebio/kube-news:${env.BUILD_ID}",'-f ./src/Dockerfile ./src')
+                        dockerapp = docker.build("santoseuzebio/kube-news:${env.BUILD_ID}",'-f ./kube-news/src/Dockerfile  ./kube-news/src')
                     }
                 }
             }
